@@ -18,6 +18,6 @@ window.onload = () => {
 
     }
 
-    cupRadio.onclick = () => toppings.style.display = "block";
-    coneRadio.onclick = () => toppings.style.display = "none";
+    cupRadio.onclick = () => toppings.classList.remove("hidden");
+    coneRadio.onclick = () => toppings.classList.add("hidden");
 }

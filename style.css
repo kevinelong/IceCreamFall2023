@@ -37,3 +37,12 @@ td{
     text-align: right;
     font-weight: bold;
 }
+#toppings{
+    opacity: 1;
+    transition: opacity ease-in-out 300ms;
+}
+#toppings.hidden{
+    /* display: none; */
+    opacity: 0;
+    transition: opacity ease-in-out 300ms;
+}
